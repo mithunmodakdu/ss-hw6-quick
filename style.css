@@ -1,0 +1,114 @@
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menuitems{
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+}
+.menuitems li{
+    margin-right: 30px;
+}
+.menuitems li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* banner */
+.banner{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner h1{
+    font-size: 40px;
+}
+.online{
+    color: #008AFF;
+}
+
+
+/* projects */
+.projects{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.number{
+    text-align: right;
+    
+    
+}
+.number h1{
+    font-size: 40px;
+    color: #F15767;
+    margin-bottom: 5px;
+}
+.project{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+/* services */
+.services{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    width: 30%;
+    margin-right: 20px;
+}
+.service img{
+    width:100%;
+}
+.service h1, p{
+    padding-left: 20px;
+}
+.service p{
+    padding-bottom: 50px;
+}
+
+.bg1{
+    background-color:#FDEBED ;
+}
+.bg2{
+    background-color:#EBF9F4 ;
+}
+.bg3{
+    background-color:#FFF7E8 ;
+}
+
+/* footer */
+.footer{
+    background-color: #008AFF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.footer p{
+    color: #61AAFF;
+
+}
+.big{
+    color: white;
+}
+
